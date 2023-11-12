@@ -27,7 +27,7 @@ The following directories and files are provided:
 > Report.pdf: a report of the project with bibliography
 
 > ./data: project datas (the original matrix was too large and can be found here https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131907)
->> ./Epithelial_cells: splited data for Normal and Tumoral lung at each stage, preprocessed csv Seurat object for each stage
+>> ./Epithelial_cells:  preprocessed csv for each stage as splited data for Normal and Tumoral lung at each stage could not be provided (too large)
 >> cell_data_simplified.csv: metadata from original dataset
 
 > ./source_code: code in R and Python
@@ -36,4 +36,5 @@ The following directories and files are provided:
 >> network_building: from preprocessed files, construct GENIE3 and ARACNE networks
 >> analysis.R: creates centrality distribution from networks matrix and finds main genes
 >> centrality.R: for MIIC matrixes (obtained online) confronts centrality and connection to class vertex to find central genes in network
+
 > ./results: GENIE3, ARACNE and MIIC networks matrixes, ARACNE and GENIE3 networks visualisations at each stage, distributions of centrality
